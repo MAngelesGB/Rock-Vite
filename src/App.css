@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+h1{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2, p{
+  padding: 0;
+  margin: 0;
+}
+
+.rock-song {
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  padding: 15px;
+  border-radius: 5px;
+  width: 550px;
+}
+
+.item{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.item .attribute{
+  font-weight: bold;
+  margin-right: 5px;
+}
