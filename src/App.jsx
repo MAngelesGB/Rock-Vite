@@ -16,7 +16,8 @@ function App() {
     <>
       <header className="App-header"> 
         <h1> Rock Songs </h1>  
-        <input onClick={() => setIsChecked(!ischecked)} type="checkbox" checked = {ischecked}/> Listened
+        {/*Detecta si hubo cambios en el input*/}
+        <input onChange={() => setIsChecked(!ischecked)} type="checkbox" checked = {ischecked}/> Listened
       </header>
       {
         ischecked ? array.filter((song) => song.listened).map((song) => {
