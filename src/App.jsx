@@ -11,7 +11,7 @@ let array = [
 ]
 
 function App() {
-  const [ischecked, setIsChecked] = useState(true)
+  const [ischecked, setIsChecked] = useState(true);
   return (
     <>
       <header className="App-header"> 
